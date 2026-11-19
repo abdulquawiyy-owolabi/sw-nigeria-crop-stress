@@ -4,7 +4,7 @@ Can satellite observations and climate data identify emerging crop stress early 
 
 **There are no ground labels or yield records.** Stress is a proxy (an unusually low MODIS NDVI for the pixel and time of year), so results are *proxy-validated*, not validated yield forecasts. Predictors come from sources other than the optical NDVI used for the label.
 
-**[Live interactive map](https://github.com/abdulquawiyy-owolabi/sw-nigeria-crop-stress/blob/main/hotspot_map.html)**: predicted risk vs. the observed stress proxy for every 16-day window, 2016 to 2025. Click any cell for its time series and local skill. The page is `index.html` in this repository.
+**[Live interactive map](https://abdulquawiyy-owolabi.github.io/sw-nigeria-crop-stress/index.html)**: predicted risk vs. the observed stress proxy for every 16-day window, 2016 to 2025. Click any cell for its time series and local skill. The page is `index.html` in this repository.
 
 Full write-up: see the research report in `docs/`.
 
