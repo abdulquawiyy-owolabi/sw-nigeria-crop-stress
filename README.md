@@ -20,14 +20,14 @@ The analysis lives in Jupyter notebooks, one per step. The number is the run ord
 
 | Notebook | Purpose |
 |---|---|
-| `00_aoi_mask_label.ipynb` | Study area, cropland mask, stratified sample points, MODIS NDVI export |
-| `01_build_baseline.ipynb` | Per-pixel seasonal baseline, z-scores, stress flags (leave-one-year-out) |
-| `02_extract_climate.ipynb` | CHIRPS, ERA5-Land and MODIS land surface temperature per 16-day window |
-| `02b_extract_s1.ipynb` | Sentinel-1 backscatter per window (`--diagnose` shows what the area holds) |
-| `03_features_and_lags.ipynb` | Climate anomalies, SPI, lag analysis |
-| `03b_s1_features.ipynb` | Track-consistent Sentinel-1 features (dB, cross ratio, RVI, anomalies) |
-| `04_models.ipynb` | Baselines and XGBoost / Random Forest with year-by-space validation |
-| `05_analysis_maps.ipynb` | Bootstrap by year, breakdowns, skill maps, interactive map, SHAP |
+| `aoi_mask_label.ipynb` | Study area, cropland mask, stratified sample points, MODIS NDVI export |
+| `build_baseline.ipynb` | Per-pixel seasonal baseline, z-scores, stress flags (leave-one-year-out) |
+| `extract_climate.ipynb` | CHIRPS, ERA5-Land and MODIS land surface temperature per 16-day window |
+| `extract_s1.ipynb` | Sentinel-1 backscatter per window (`--diagnose` shows what the area holds) |
+| `features_and_lags.ipynb` | Climate anomalies, SPI, lag analysis |
+| `s1_features.ipynb` | Track-consistent Sentinel-1 features (dB, cross ratio, RVI, anomalies) |
+| `models.ipynb` | Baselines and XGBoost / Random Forest with year-by-space validation |
+| `analysis_maps.ipynb` | Bootstrap by year, breakdowns, skill maps, interactive map, SHAP |
 | `data_provenance.csv` | Every dataset: Earth Engine ID, version, variables, processing, script |
 
 Outputs from the final steps (figures, result tables, `index.html`) are in `docs/`. Large intermediate data (CSVs, parquet) is not committed.
